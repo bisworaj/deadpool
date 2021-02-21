@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card" id="main">
+                    <div class="card-containt input">
+                        <span class="card-title">Add New Task</span>
+                        <div class="row">
+                            <form action="" id="task-form">
+                                <div class="input-field col s12">
+                                    <input type="text" name="task" id="task">
+                                    <input type="submit" value="add task" class="btn" id="btn">
+                                    <label for="task">new task</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="card-action output">
+                        <h5 id="task-title">Find Tasks</h5>
+                        <div class="input-field col s12" >
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter" >Task List</label>
+                        </div>
+                        <ul class="collection"></ul>
+                        <span>
+                        <a href="#" class="clear-task btn black" >clear Task</a>
+                        clear Tasks
+                        </span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

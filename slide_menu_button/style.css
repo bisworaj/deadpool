@@ -1,0 +1,53 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto','Lato',sans-serif;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    min-height: 100vh;
+}
+button{
+    background: crimson;
+    border:none;
+    color:white;
+    position:fixed;
+    top:20px;
+    right:0px;
+    padding:1rem;
+    transition: all 0.5s ease;
+}
+#btn.activ{
+    transform: translateX(-120px);
+}
+nav{
+    background:crimson ;
+    position:fixed;
+    top:0px;
+    right:0px;
+    height:100vh;
+    padding:2rem;
+    transform:translateX(120px);
+    transition: all 0.5s ease;
+}
+#nav.activ{
+    transform: translateX(0px);
+}
+
+nav ul{
+    padding:0;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding:2rem 0;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}

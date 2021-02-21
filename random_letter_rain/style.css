@@ -1,0 +1,12 @@
+.letter {
+    position: fixed;
+    top:-1vh;
+    transform: translateY(0);
+    animation: fall 2s linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}

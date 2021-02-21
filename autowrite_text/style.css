@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    min-height: 100vh;
+    color:white;
+    font-family: system-ui;
+}
+
+#txt{
+    font-size:4rem;
+    font-weight: 900;
+}
+
+@media(max-width:500px){
+    body{padding:1rem;}
+    #txt{font-size:3rem;font-weight:700;}
+}

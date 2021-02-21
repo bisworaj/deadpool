@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>loan caculator</h1>
+<div class="container">
+    <div class="card card-body input">
+        <form  id="loan-form">
+        <h5>Add Amount</h5>
+            <div class="form-group">
+                <div class="input-group">
+                    <span>
+                        <input type="number" class="form-controll" id="amount" 
+                        placeholder="loan amount"> $
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <span>
+                        <input type="number" class="form-controll" id="interest" 
+                        placeholder="interest">%
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <span>
+                        <input type="number" class="form-controll" id="years" 
+                        placeholder="years to pay">Y
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group">
+                    <span>
+                        <input type="submit"  id="btn" value="calculate">
+                    </span>
+                </div>
+            </div>
+
+        </form>
+    </div>
+        <!----loader-->
+
+        <!----lresult-->
+    <div id="results" class="output">
+        <h5>Results</h5>
+        <div class="form-group">
+            <div class="input-group">
+                <span>
+                    <input type="number" class="form-controll" id="monthly-payment" 
+                    disabled >Monthly payment
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span>
+                    <input type="number" class="form-controll" id="total-payment" 
+                    disabled >Total payment
+                </span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <span>
+                    <input type="number" class="form-controll" id="total-interest" 
+                    disabled >Total Interst
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="info" >
+    <p>if a person loans some amount of money and with certain amount of interest rate & he takes respective amount of time to repay it.
+    then this is how it is calculated.
+    for example if he takes <b>10000$</b> loan on <b>2%</b> interest rate and <b>2years</b> to repay
+    then he will pay <b>10209.66$</b> total.
+    </p>
+</div>
+
+
+<script src="loanCalculator.js"></script>
+</body>
+</html>

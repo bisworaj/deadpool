@@ -1,0 +1,16 @@
+
+.box{
+position: relative;
+background: black;
+border: 0.2rem solid black;
+height:8rem;
+width:8rem;
+outline:0;
+overflow: none;
+}
+
+.box::before{
+    content: "FILL";
+    font-size: 2rem;
+    
+}
